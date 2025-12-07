@@ -213,7 +213,7 @@ game/*.wasm
 game/*.json
 game/LICENSE_*
 game/README.md
-game/GIRP_for_RL_mini.swf
+game/*.swf
 
 # model files
 *.pth
