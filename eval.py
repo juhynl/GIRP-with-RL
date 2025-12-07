@@ -24,8 +24,6 @@ LR_CRITIC = 0.001
 # Training config
 NUM_EVAL_EPISODES = 20
 
-# EVAL_GOAL_HEIGHT=5
-
 # ==========================================
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
