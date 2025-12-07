@@ -11,6 +11,7 @@ For detailed explanation and experimental results, please refer to our report at
 - torch
 - numpy
 - selenium
+- tensorboard
 
 ## Setup
 ```bash
@@ -43,6 +44,11 @@ python train.py
 ```
 
 To evaluate the pre-trained PPO agent, run `eval.py` with the path to your model file.
+
 ```py
 python eval.py --path models/model_file.pth
 ```
+
+You can find two pre-trained models in the `models/` directory:
+- `good_model.pth`: Achieved an average score of **4.63**.
+- `poor_model.pth`: Achieved an average score of **1.39**
